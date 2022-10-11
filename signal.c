@@ -7,10 +7,10 @@ int con;
 void holaMundo(int signalNumber) {
     if (signalNumber == 10) {
         printf("Es la señal 10\n");
+        con = 2;
     } else {
         printf("Es otra señal");
     }
-    con = 2;
 }
 
 void noMeMates(int sig) {
